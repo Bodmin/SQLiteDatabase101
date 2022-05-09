@@ -46,6 +46,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtNotes = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtLabel
@@ -204,11 +205,19 @@
             this.txtNotes.Size = new System.Drawing.Size(162, 23);
             this.txtNotes.TabIndex = 5;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(40, 398);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(375, 23);
+            this.textBox1.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.btnClear);
@@ -254,5 +263,6 @@
         private Button btnClear;
         private Label label6;
         private TextBox txtNotes;
+        private TextBox textBox1;
     }
 }
